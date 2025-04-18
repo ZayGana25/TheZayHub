@@ -15,7 +15,7 @@ export default function CVPage() {
       {
         degree: "Associates of Science, Computer Science",
         institution: "Lane Community College",
-        location: "Lacey, WA",
+        location: "Eugene, OR",
         period: "September 2022 - June 2023",
         details: "Completed remaining general education requirements for computer science degree.",
       },
