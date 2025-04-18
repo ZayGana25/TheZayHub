@@ -13,18 +13,18 @@ export default function CVPage() {
         details: "Transferred in to complete degree. Completed a Minor in Mathematics.",
       },
       {
-        degree: "Associates of Science, Computer Science",
+        degree: "Pre-requisites, Computer Science",
         institution: "Lane Community College",
         location: "Eugene, OR",
         period: "September 2022 - June 2023",
-        details: "Completed remaining general education requirements for computer science degree.",
+        details: "Completed remaining general education requirements and some pre-requisites towards computer science degree.",
       },
       {
-        degree: "Bachelor of Science, Mechanical Engineering ",
+        degree: "Bachelor of Science, Mechanical Engineering -> Computer Science",
         institution: "Saint Martin's University",
         location: "Lacey, WA",
         period: "August 2019 - May 2022",
-        details: "Student-Athlete in the baseball program. Started as a Mechanical Engineering major before switching to Computer Science and transferring home.",
+        details: "Student-Athlete in the baseball program. Started as a Mechanical Engineering major before switching to Computer Science my last year before transferring.",
       },
       {
         degree: "High School Diploma, IHS Diploma",
@@ -48,7 +48,7 @@ export default function CVPage() {
         ],
       },
       {
-        title: "Computer Science: Software Engineer Intern",
+        title: "Cyber Security/NOC Intern",
         company: "IP Services",
         location: "Eugene, OR",
         period: "Spring 2025",
