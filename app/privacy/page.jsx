@@ -128,7 +128,7 @@ export default function PrivacyPolicy() {
           <h2 className="text-2xl font-bold mb-2">Contact Information</h2>
           <p>
             If you have any questions about this Privacy Policy, please contact me using the contact form on this
-            website or at thezayhub@gmail.com.
+            website.
           </p>
         </section>
       </div>

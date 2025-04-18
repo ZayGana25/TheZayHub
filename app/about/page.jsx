@@ -32,7 +32,7 @@ export default function AboutPage() {
     name: "Isaiah P. Lugo",
     title: "Student at Bushnell University",
     location: "Eugene, OR",
-    email: "ilugo@bushnell.edu",
+    //email: "ilugo@bushnell.edu",
     bio: "I'm a student at Bushnell University pursuing a major in Computer Science: Software Engineering and a Minor in Mathematics. I'm passionate about technology and enjoy learning new things, with a focus on Cyber Security. Sports are a big part of my life, and I enjoy playing baseball and golf. Most of all, family is very important to me.",
     hobbies: [
       {

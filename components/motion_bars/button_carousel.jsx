@@ -18,7 +18,7 @@ export default function ButtonCarousel() {
     { src: "/88x31/digitalme.gif", alt: "Digital Me" },
     { src: "/88x31/gingerbreadman.gif", alt: "Crazy Gingerbread Man" },
     { src: "/88x31/dotcomboom_new.gif", alt: "Bomb.Com" },
-    { src: "/88x31/email.gif", alt: "E-mail Me", href: "mailto:ilugo@bushnell.edu", isExternal: false },
+    { src: "/88x31/email.gif", alt: "E-mail Me" }, //, href: "mailto:ilugo@bushnell.edu", isExternal: false },
     { src: "/88x31/emptyhalls.gif", alt: "Empty Halls" },
     { src: "/88x31/folders.gif", alt: "Folders" },
     { src: "/88x31/hairdays.gif", alt: "No Bad Hair Days" },
