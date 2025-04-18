@@ -8,11 +8,11 @@ import { ArrowLeft } from "lucide-react"
 import dynamic from "next/dynamic"
 
 // Dynamically import the AsciiEarth component with no SSR
-const AsciiEarth = dynamic(() => import("@/components/ascii_earth"), {
+const RickRolled = dynamic(() => import("@/components/rick_roll"), {
   ssr: false,
   loading: () => (
     <div className="w-[500px] h-[500px] bg-black rounded-lg mx-auto flex items-center justify-center">
-      <div className="text-white">Loading Earth visualization...</div>
+      <div className="text-white">Loading secret content...</div>
     </div>
   ),
 })
@@ -55,7 +55,7 @@ export default function SecretPage() {
         <h1 className="text-2xl font-bold mb-4 text-primary">You Found The Secret Page</h1>
 
         <div className="relative mb-8">
-          <AsciiEarth />
+          <RickRolled />
         </div>
 
         <motion.p
