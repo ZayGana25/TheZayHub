@@ -407,7 +407,7 @@
 
 import { useEffect, useRef, useState } from "react"
 
-export default function AsciiEarthOptimized() {
+export default function AsciiEarth() {
   const canvasRef = useRef(null)
   const [isLoading, setIsLoading] = useState(true)
   const [loadingProgress, setLoadingProgress] = useState("Loading globe...")

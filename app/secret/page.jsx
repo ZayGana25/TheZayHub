@@ -5,7 +5,17 @@ import { motion } from "framer-motion"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ArrowLeft } from "lucide-react"
-import AsciiEarth from "@/components/ascii_earth"
+import dynamic from "next/dynamic"
+
+// Dynamically import the AsciiEarth component with no SSR
+const AsciiEarth = dynamic(() => import("@/components/ascii_earth"), {
+  ssr: false,
+  loading: () => (
+    <div className="w-[500px] h-[500px] bg-black rounded-lg mx-auto flex items-center justify-center">
+      <div className="text-white">Loading Earth visualization...</div>
+    </div>
+  ),
+})
 
 export default function SecretPage() {
   const [prompt, setPrompt] = useState("")
