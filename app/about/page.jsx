@@ -25,6 +25,7 @@ export default function AboutPage() {
     "/carousel/snowboard.jpg?height=400&width=600",
     "/carousel/goducks.jpg?height=400&width=600",
     "/carousel/bushnell.jpg?height=400&width=600",
+    "/carousel/theboys.jpg?height=400&width=600",
   ]
 
   const personalInfo = {
