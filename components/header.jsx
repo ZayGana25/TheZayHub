@@ -1,7 +1,7 @@
 
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import Link from "next/link"
 import Image from "next/image"
 import { Menu, X } from "lucide-react"
@@ -24,6 +24,18 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [contactFormOpen, setContactFormOpen] = useState(false)
   const pathname = usePathname()
+  
+  useEffect(() => {
+    const handleOpenContactForm = () => {
+      setContactFormOpen(true)
+    }
+
+    window.addEventListener("openContactForm", handleOpenContactForm)
+
+    return () => {
+      window.removeEventListener("openContactForm", handleOpenContactForm)
+    }
+  }, [])
 
   return (
     <header className="bg-background border-b">

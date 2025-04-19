@@ -15,6 +15,11 @@ export default function Footer() {
     setMounted(true)
   }, [])
 
+  const openContactForm = () => {
+    // Dispatch a custom event that the header component will listen for
+    window.dispatchEvent(new CustomEvent("openContactForm"))
+  }
+
   if (!mounted) {
     return (
       <footer className="border-t py-8 bg-background">
@@ -30,6 +35,10 @@ export default function Footer() {
               <div className="w-10 h-10" />
             </div>
             <div>
+              <button onClick={openContactForm} className="text-sm text-muted-foreground hover:text-foreground">
+                Contact
+              </button>
+              <span className="text-muted-foreground mx-2"> | </span>
               <Link href="/privacy" className="text-sm text-muted-foreground hover:text-foreground">
                 Privacy Policy
               </Link>
@@ -80,6 +89,10 @@ export default function Footer() {
             </Button>
           </div>
           <div>
+            <button onClick={openContactForm} className="text-sm text-muted-foreground hover:text-foreground">
+              Contact
+            </button>
+            <span className="text-muted-foreground mx-2"> | </span>
             <Link href="/privacy" className="text-sm text-muted-foreground hover:text-foreground">
               Privacy Policy
             </Link>
