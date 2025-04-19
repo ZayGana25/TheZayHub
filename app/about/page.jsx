@@ -6,7 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { motion } from "framer-motion"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { Github, Linkedin, Instagram } from "lucide-react"
+import { Github, Linkedin, Instagram, Youtube } from "lucide-react"
 import ButtonCarousel from "@/components/motion_bars/button_carousel";
 
 
@@ -107,6 +107,16 @@ export default function AboutPage() {
                 aria-label="Instagram Profile"
               >
                 <Instagram className="h-5 w-5" />
+              </a>
+            </Button>
+            <Button variant="outline" size="icon" asChild>
+              <a
+                href="https://www.youtube.com/@MrBigZ25"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Youtube Profile"
+              >
+                <Youtube className="h-5 w-5" />
               </a>
             </Button>
           </div>

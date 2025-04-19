@@ -160,7 +160,7 @@ export default function CVPage() {
                 <Linkedin className="h-5 w-5" />
               </a>
             </Button>
-            <Button variant="outline" size="icon" asChild>
+            {/* <Button variant="outline" size="icon" asChild>
               <a
                 href="https://instagram.com/isaiahlugo25"
                 target="_blank"
@@ -169,7 +169,7 @@ export default function CVPage() {
               >
                 <Instagram className="h-5 w-5" />
               </a>
-            </Button>
+            </Button> */}
           </div>
         </div>
       </section>
