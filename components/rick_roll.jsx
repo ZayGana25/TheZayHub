@@ -44,7 +44,7 @@ export default function RickRolled() {
         // YouTube video embed
         <div className="w-full h-full">
           <iframe
-            src="https://www.youtube.com/watch?v=vybook6hBqY"
+            src="https://www.youtube.com/embed/j5a0jTc9S10?si=eIC2ilMxm8VDt9kz"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
