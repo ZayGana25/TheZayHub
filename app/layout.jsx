@@ -14,8 +14,8 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata = {
   title: "TheZayHub - My Website",
   description: "Personal portfolio website with NextJS, Vercel, Tailwind CSS, OpenAI Chatbot implementation, and more.",
-  openGraph: {
-    images: "/chill_guy.png",
+  icons: {
+    icons: "/chill_guy.png",
   },
 }
 

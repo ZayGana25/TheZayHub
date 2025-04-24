@@ -31,7 +31,7 @@ export default function ChatPage() {
         <Card className="border shadow-md">
           <CardHeader className="border-b">
             <CardTitle>AI Assistant: Zay</CardTitle>
-            <CardDescription>Powered by OpenAI GPT-3.5 Turbo</CardDescription>
+            <CardDescription>Powered by OpenAI GPT-4.1</CardDescription>
           </CardHeader>
           <CardContent className="h-[500px] overflow-y-auto p-4">
             <div className="space-y-4">

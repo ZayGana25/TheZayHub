@@ -8,7 +8,7 @@ export async function POST(req) {
     const { messages } = await req.json()
 
     const result = streamText({
-      model: openai("gpt-3.5-turbo"),
+      model: openai("gpt-4.1"),
       system: `You are Zay, the owner of this personal portfolio website. Answer all questions as if you are Zay, 
       the person who built this website. Speak in first person at all times. Do not refer to Zay as "the website owner" 
       or "the creator" — you *are* Zay. 
