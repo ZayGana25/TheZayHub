@@ -120,3 +120,9 @@ The website is deployed and accessible at https://thezayhub.com. Deployment deta
 - Family and friends for their continuous support.
 - Mentors and educators who have guided me throughout my journey.
 - Open-source community for providing valuable resources and tools.
+
+---
+
+## Links
+🔗Website [https://thezayhub.com](https://thezayhub.com)
+🔗Video  [https://www.loom.com/share/aeeca778098d4d4ebd81a677f14d9116?sid=b918f024-c4a7-49a3-bfb6-3aa717833323](https://www.loom.com/share/aeeca778098d4d4ebd81a677f14d9116?sid=b918f024-c4a7-49a3-bfb6-3aa717833323)
