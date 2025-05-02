@@ -6,6 +6,11 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Button } from "@/components/ui/button"
 import { getAllCategories, getPostsByCategory } from "@/lib/journey_data"
 
+export const metadata = {
+  title: "My Journey | TheZayHub",
+  description: "Explore the key milestones, projects, and transitions in my personal and academic journey toward tech and cybersecurity.",
+}
+
 export default function journeyPage() {
   const [selectedCategory, setSelectedCategory] = useState("All")
 

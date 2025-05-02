@@ -8,6 +8,10 @@ import { motion, AnimatePresence } from "framer-motion"
 import { useChat } from "ai/react"
 import ReactMarkdown from "react-markdown"
 
+export const metadata = {
+  title: "ChatWithMe | TheZayHub",
+  description: "Talk with my custom AI chatbot trained on my background and interests. Ask about my projects, skills, journey or just chat!",
+}
 
 export default function ChatPage() {
   const { messages, input, handleInputChange, handleSubmit, isLoading } = useChat({

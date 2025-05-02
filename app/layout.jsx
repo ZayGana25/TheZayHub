@@ -12,7 +12,7 @@ const jetbrainsMono = JetBrains_Mono({
 })
 // browser tab title
 export const metadata = {
-  title: "TheZayHub - My Website",
+  title: "TheZayHub | My Website",
   description: "Personal portfolio website with NextJS, Vercel, Tailwind CSS, OpenAI Chatbot implementation, and more.",
   icons: {
     icons: "/chill_guy.png",

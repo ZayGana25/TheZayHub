@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "Privacy Policy | TheZayHub",
+  description: "Understand how your data is handled, stored, and protected when you interact with my website and AI tools.",
+}
+
 export default function PrivacyPolicy() {
   return (
     <div className="max-w-4xl mx-auto space-y-8">

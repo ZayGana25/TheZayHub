@@ -4,6 +4,10 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Button } from "@/components/ui/button"
 import { getRecentPosts } from "@/lib/journey_data"
 
+export const metadata = {
+  title: "TheZayHub | Home",
+  description: "Welcome to my personal portfolio website. Discover my story, resume, projects, blog posts, and interactive chatbot.",
+}
 
 export default function Home() {
   // Get the three most recent blog posts

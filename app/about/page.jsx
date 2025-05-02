@@ -9,6 +9,10 @@ import { Button } from "@/components/ui/button"
 import { Github, Linkedin, Instagram, Youtube } from "lucide-react"
 import ButtonCarousel from "@/components/motion_bars/button_carousel";
 
+export const metadata = {
+  title: "About Me | TheZayHub",
+  description: "Learn more about my background, education, experience, and journey as a software engineer and cybersecurity enthusiast.",
+}
 
 export default function AboutPage() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0)

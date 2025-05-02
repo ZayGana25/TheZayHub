@@ -1,6 +1,10 @@
 import { Button } from "@/components/ui/button"
 import { Github, Linkedin, Mail, Instagram } from "lucide-react"
 
+export const metadata = {
+  title: "CV | TheZayHub",
+  description: "View my professional resume detailing my technical skills, education, and work experience.",
+}
 
 export default function CVPage() {
   const resume = {
