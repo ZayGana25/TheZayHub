@@ -10,12 +10,37 @@ const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
   variable: "--font-mono",
 })
+
 // browser tab title
 export const metadata = {
-  title: "TheZayHub | My Website",
-  description: "Personal portfolio website with NextJS, Vercel, Tailwind CSS, OpenAI Chatbot implementation, and more.",
+  title: "TheZayHub | Portfolio Website",
+  description: 
+    "Personal portfolio website showcasing my web development projects, skills, and experience.",
+  keywords: ["Portfolio", "Web Development", "Projects", "Skills", "Experience", "TheZayHub", "Zay", "Isaiah Lugo"],
+  authors: [{ name: "Isaiah Lugo" }],
+  creator: "Isaiah Lugo",
+  metadataBase: new URL("https://thezayhub.com"),
   icons: {
-    icons: "/chill_guy.png",
+    icons: "/metadata/chill_guy.png",
+  },
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://thezayhub.com",
+    title: "TheZayHub | Portfolio Website",
+    description: "Personal portfolio website showcasing my web development projects, skills, and experience.",
+    siteName: "My Portfolio",
+    images: [
+      {
+        url: "/metadata/og-image.png", // You'll need to create this image in your public folder
+        width: 1200,
+        height: 630,
+        alt: "My Portfolio Website",
+      },
+    ],
   },
 }
 

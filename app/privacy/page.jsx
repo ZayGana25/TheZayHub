@@ -1,6 +1,15 @@
 export const metadata = {
-  title: "Privacy Policy | TheZayHub",
-  description: "Understand how your data is handled, stored, and protected when you interact with my website and AI tools.",
+  title: "Privacy Policy",
+  description: 
+    "Understand how your data is handled, stored, and protected when you interact with my website and AI tools.",
+  keywords: ["privacy policy", "data protection", "GDPR", "user rights"],
+  alternates: {
+    canonical: "/privacy",
+  },
+  openGraph: {
+    title: "Privacy Policy | TheZayHub",
+    description: "Understand how your data is handled, stored, and protected when you interact with my website and AI tools.",
+  },
 }
 
 export default function PrivacyPolicy() {
