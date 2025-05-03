@@ -13,10 +13,10 @@ const jetbrainsMono = JetBrains_Mono({
 
 // browser tab title
 export const metadata = {
-  title: "TheZayHub | Portfolio Website",
+  title: "Home",
   description: 
-    "Personal portfolio website showcasing my web development projects, skills, and experience.",
-  keywords: ["Portfolio", "Web Development", "Projects", "Skills", "Experience", "TheZayHub", "Zay", "Isaiah Lugo"],
+    "Welcome to my personal portfolio website. Discover my story, resume, projects, journey posts, and interactive chatbot.",
+  keywords: ["Portfolio", "Skills", "Experience", "TheZayHub", "Zay", "Isaiah Lugo", "portfolio", "software engineer", "projects", "journey", "chatbot"],
   authors: [{ name: "Isaiah Lugo" }],
   creator: "Isaiah Lugo",
   metadataBase: new URL("https://thezayhub.com"),
@@ -31,15 +31,15 @@ export const metadata = {
     locale: "en_US",
     url: "https://thezayhub.com",
     title: "TheZayHub | Portfolio Website",
-    description: "Personal portfolio website showcasing my web development projects, skills, and experience.",
+    description: 
+      "Welcome to my personal portfolio website. Discover my story, resume, projects, journey posts, and interactive chatbot.",
     siteName: "My Portfolio",
-
     images: [
       {
         url: "https://www.thezayhub.com/metadata/og-image.png",  
         width: 1200,
         height: 630,
-        alt: "My Portfolio | TheZayHub",
+        alt: "TheZayHub | Portfolio Website",
       },
     ],
   },

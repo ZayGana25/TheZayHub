@@ -4,19 +4,19 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Button } from "@/components/ui/button"
 import { getRecentPosts } from "@/lib/journey_data"
 
-export const metadata = {
-  title: "Home",
-  description: 
-    "Welcome to my personal portfolio website. Discover my story, resume, projects, journey posts, and interactive chatbot.",
-  keywords: ["portfolio", "software engineer", "projects", "journey", "chatbot"],
-  alternates: {
-    canonical: "/",
-  },
-  openGraph: {
-    title: "Home | TheZayHub",
-    description: "Welcome to my personal portfolio website. Discover my story, resume, projects, journey posts, and interactive chatbot.",
-  }
-}
+// export const metadata = {
+//   title: "Home",
+//   description: 
+//     "Welcome to my personal portfolio website. Discover my story, resume, projects, journey posts, and interactive chatbot.",
+//   keywords: ["portfolio", "software engineer", "projects", "journey", "chatbot"],
+//   alternates: {
+//     canonical: "/",
+//   },
+//   openGraph: {
+//     title: "Home | TheZayHub",
+//     description: "Welcome to my personal portfolio website. Discover my story, resume, projects, journey posts, and interactive chatbot.",
+//   }
+// }
 
 export default function Home() {
   // Get the three most recent blog posts
