@@ -24,7 +24,7 @@ export const metadata = {
     icons: "/metadata/chill_guy.png",
   },
   alternates: {
-    canonical: "/",
+    canonical: "https://www.thezayhub.com/",
   },
   openGraph: {
     type: "website",
