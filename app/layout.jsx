@@ -33,9 +33,10 @@ export const metadata = {
     title: "TheZayHub | Portfolio Website",
     description: "Personal portfolio website showcasing my web development projects, skills, and experience.",
     siteName: "My Portfolio",
+
     images: [
       {
-        url: "https://www.thezayhub.com/metadata/og-image.png", // You'll need to create this image in your public folder and use the 
+        url: "https://www.thezayhub.com/metadata/og-image.png",  
         width: 1200,
         height: 630,
         alt: "My Portfolio | TheZayHub",
