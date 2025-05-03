@@ -19,7 +19,7 @@ export const metadata = {
   keywords: ["Portfolio", "Skills", "Experience", "TheZayHub", "Zay", "Isaiah Lugo", "portfolio", "software engineer", "projects", "journey", "chatbot"],
   authors: [{ name: "Isaiah Lugo" }],
   creator: "Isaiah Lugo",
-  metadataBase: new URL("https://thezayhub.com"),
+  metadataBase: new URL("https://www.thezayhub.com"),
   icons: {
     icons: "/metadata/chill_guy.png",
   },
@@ -29,7 +29,7 @@ export const metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://thezayhub.com",
+    url: "https://www.thezayhub.com",
     title: "TheZayHub | Portfolio Website",
     description: 
       "Welcome to my personal portfolio website. Discover my story, resume, projects, journey posts, and interactive chatbot.",
