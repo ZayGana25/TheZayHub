@@ -13,6 +13,14 @@ export const metadata = {
     title: "CV | TheZayHub",
     description: 
       "View my professional resume detailing my technical skills, education, and work experience.",
+    images: [
+      {
+        url: "https://www.thezayhub.com/metadata/og-image.png",  
+        width: 1200,
+        height: 630,
+        alt: "CV | TheZayHub",
+      },
+    ],
   },
 }
 

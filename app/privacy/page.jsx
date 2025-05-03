@@ -8,7 +8,16 @@ export const metadata = {
   },
   openGraph: {
     title: "Privacy Policy | TheZayHub",
-    description: "Understand how your data is handled, stored, and protected when you interact with my website and AI tools.",
+    description: 
+      "Understand how your data is handled, stored, and protected when you interact with my website and AI tools.",
+    images: [
+      {
+        url: "https://www.thezayhub.com/metadata/og-image.png",  
+        width: 1200,
+        height: 630,
+        alt: "Privacy Policy | TheZayHub",
+      },
+    ],
   },
 }
 

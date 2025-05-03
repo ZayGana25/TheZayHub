@@ -13,7 +13,16 @@ export const metadata = {
     title: "AboutMe | TheZayHub",
     description:
       "Learn more about my background, education, experience, and journey as a software engineer and cybersecurity enthusiast.",
+    images: [
+      {
+        url: "https://www.thezayhub.com/metadata/og-image.png",  
+        width: 1200,
+        height: 630,
+        alt: "AboutMe | TheZayHub",
+      },
+    ],
   },
+  
 }
 
 export default function AboutPage() {

@@ -10,7 +10,16 @@ export const metadata = {
   },
   openGraph: {
     title: "Journey | TheZayHub",
-    description: "Thoughts, insights, and updates on my journey and experiences.",
+    description: 
+      "Thoughts, insights, and updates on my journey and experiences.",
+    images: [
+      {
+        url: "https://www.thezayhub.com/metadata/og-image.png",  
+        width: 1200,
+        height: 630,
+        alt: "Journey | TheZayHub",
+      },
+    ],
   },
 }
 
