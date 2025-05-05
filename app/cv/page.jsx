@@ -156,7 +156,7 @@ export default function CVPage() {
             className="bg-primary text-primary-foreground px-6 py-2 rounded-md hover:bg-primary/90 transition-colors"
             asChild
           >
-            <a href="/resume_lugo.docx" download="Isaiah_Lugo_Resume.docx">
+            <a href="/resume/resume_lugo.docx" download="Isaiah_Lugo_Resume.docx">
               Download CV
             </a>
           </Button>

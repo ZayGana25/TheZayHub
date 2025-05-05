@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://thezayhub.com
-
-# Sitemaps
-Sitemap: https://thezayhub.com/SEO/sitemap.xml
