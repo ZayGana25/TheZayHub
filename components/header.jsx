@@ -99,7 +99,7 @@ export default function Header() {
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="text-xl font-bold flex items-center gap-3">
               <Image
-                src="/www2.gif"
+                src="/88x31/www2.gif"
                 alt="Animated Button"
                 width={88}
                 height={31}
