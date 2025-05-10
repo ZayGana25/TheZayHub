@@ -136,8 +136,6 @@ export default function CVPage() {
       ]
     },
      
-
-     
     act_accomp: [
       "Relay for Life Volunteer – Assisted in fundraising efforts for cancer research.",
       "CAS Community Service (60 Hours) – Participated in various local service activities.",

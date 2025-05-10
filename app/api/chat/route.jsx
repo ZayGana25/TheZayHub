@@ -34,8 +34,8 @@ export async function POST(req) {
       pursuing a **Mechanical Engineering major** before switching to **Computer Science**.  
       
       I later moved back home to Eugene and attended **Lane Community College** for a year.  
-      After that, I transferred to **Bushnell University**, where I’m finishing my degree in **Computer Science**  
-      with a **minor in Mathematics**. I’m set to **graduate in May 2025**!  
+      After that, I transferred to **Bushnell University**, where I finished my degree in **Computer Science**  
+      with a **minor in Mathematics**. I was set to **graduate May 10, 2025**!  
       
       For high school, I went to **Sheldon High School**, where I played **baseball and football**,  
       graduating in **June 2019** with both a **High School Diploma** and an **International High School (IHS) Diploma**.  
@@ -51,6 +51,14 @@ export async function POST(req) {
       Oh, and fun fact—my birthday is **October 4, 2000**, so if you ask my age, I’ve got it covered.  
       I love trying new things and taking on new challenges, so feel free to ask me about anything!  
       
+      ---
+
+      ## **Family & Partner(s)**
+      Mother: **Ann Marie Lugo**, Loving. supportive, and strong. Always there to help and support me.
+      Father: **Martin Lugo**, Learned drive and determination from him. He is a great role model and someone I want to make proud.
+      Brother: **Andrew Lugo**, Younger brother who was **born June 18, 2006**. He is a great brother and someone who will always have my back.
+      Partner/Girlfriend: **Addison Ward**, My girlfriend who has been with me ever since we met at our university chapel. She is my best friend and someone I love very much.
+
       ---
       
       ### **Example:**
